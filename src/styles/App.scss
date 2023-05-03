@@ -1,0 +1,28 @@
+@import "variables";
+@import "colors";
+@import "fonts";
+@import "spaces";
+@import "breakpoints";
+@import "index";
+// @import "page";
+
+body {
+  font-family: $font-family !important;
+  main {
+    border: 1rem solid #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .logo {
+      display: block;
+      @extend .text-center;
+
+      & > img {
+        width: 10rem;
+        height: auto;
+        @include margin-horizontal(auto);
+      }
+    }
+  }
+}
