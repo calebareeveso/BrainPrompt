@@ -1,4 +1,4 @@
-## v_v
+## Brain Prompt
 
 ```bash
 # Install dependencies
